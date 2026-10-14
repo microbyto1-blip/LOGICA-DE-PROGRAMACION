@@ -115,4 +115,3 @@ public class asistenciaalumnos {
         consola.close();
     }
 }
-```
