@@ -7,7 +7,7 @@ public class CalculadoraIMC {
         Scanner entrada = new Scanner(System.in);
 
         double peso, altura, imc;
-        char genero, continuar;
+        char continuar;
         int opcion;
 
         do {
@@ -18,9 +18,6 @@ public class CalculadoraIMC {
 
             System.out.print("Ingresa tu altura en metros: ");
             altura = entrada.nextDouble();
-
-            System.out.print("Ingresa tu genero (M/F): ");
-            genero = entrada.next().charAt(0);
 
             if (peso > 0 && altura > 0) {
 
